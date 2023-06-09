@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Work from './components/Work';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Copyright from './components/Copyright';
 
 
 const App = () => {
@@ -21,6 +22,9 @@ const App = () => {
       <Work />
       <Resume />
       <Contact />
+      <footer>
+        <Copyright />
+      </footer>
       {/* <div className='h-[4000px]'></div> */}
     </div>
   );
