@@ -18,7 +18,7 @@ const Work = () => {
   }
 
   return (
-    <section className='section sm:py-4 md:py-6 lg:py-8 xl:p-5 sm:mt-40 sm:mb-2 md:mt-40 md:mb-2 lg:mt-0 lg:mb-2 xl:mt-10 xl:mb-2' id='work'>
+    <section className='section sm:py-4 mt-40 md:py-6 lg:py-8 xl:p-5 sm:mt-40 px-0 py-0 sm:mb-2 md:mt-40 md:mb-2 lg:mt-0 lg:mb-2 xl:mt-10 xl:mb-2' id='work'>
       <div className='container mx-auto'>
         <div
           className='grid gap-5 bg-no-repeat lg:flex-row flex-col grid-cols-1 lg:grid-cols-2 lg:grid-cols-3 px-5 py-5'>
@@ -31,7 +31,7 @@ const Work = () => {
             {/* text */}
             <div
               className='grid gap-5 bg-no-repeat lg:flex-row flex-col px-5 py-5'>
-              <h2 className='h2 leading-tight text-[40px] text-accent font-bold font-secondary'>
+              <h2 className='h2 leading-tight text-[40px] text-blue-400 font-bold font-secondary'>
                 My Latest <br />
                 Work.
               </h2>
@@ -91,11 +91,11 @@ const Work = () => {
                 alt=''
               />
               {/* pretitle */}
-              <div className='absolute -bottom-full group-hover:bottom-5 left-5 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-6 lg:group-hover:bottom-3 transition-all duration-500 z-50'>
+              <div className='absolute -bottom-full group-hover:bottom-4 left-5 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-6 lg:group-hover:bottom-3 transition-all duration-500 z-50'>
                 <span className='text-gradient'>A notes app made using Koltin, Room Database and MVVM architecture.</span>
               </div>
               {/* title */}
-              <div className='absolute -top-full left-5 group-hover:top-2 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-6 lg:group-hover:top-1 transition-all mt-5 duration-700 z-50'>
+              <div className='absolute -top-full left-5 group-hover:top-1 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-6 lg:group-hover:top-1 transition-all mt-5 duration-700 z-50'>
                 <span className='text-3xl text-white'>Notes App</span>
               </div>
             </motion.div>

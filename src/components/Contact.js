@@ -36,7 +36,7 @@ const Contact = () => {
 
 
   return (
-    <section className='py-16 sm:py-4 md:py-6 lg:py-8 xl:py-10 lg:section sm:mt-40 sm:mb-2 md:mt-40 md:mb-2 lg:mt-10 lg:mb-2 xl:mt-30 xl:mb-2' id='contact'>
+    <section className='py-16 sm:py-4 md:py-6 mt-40 lg:py-8 xl:py-10 lg:section sm:mt-72 sm:mb-2 md:mt-72 md:mb-2 lg:mt-10 lg:mb-2 xl:mt-30 xl:mb-2' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           {/* text */}

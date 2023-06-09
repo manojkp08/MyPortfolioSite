@@ -38,7 +38,7 @@ const Services = () => {
   }
 
   return (
-    <section className='section mt-96 sm:py-4 md:py-6 lg:py-8 xl:py-10 sm:my-6 sm:mt-40 sm:mb-2 md:mt-96 md:mb-2 lg:mt-60 lg:mb-1 xl:mt-60 xl:mb-2' id='services'>
+    <section className='section mt-40 sm:py-4 md:py-6 px-2 lg:py-8 xl:py-10 sm:mt-40 sm:mb-2 md:mt-72 md:mb-2 lg:mt-60 lg:mb-1 xl:mt-72 xl:mb-2' id='services'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           {/* text & image*/}
@@ -48,7 +48,7 @@ const Services = () => {
             whileInView={"show"}
             viewport={{once: false, amount: 0.01}} 
             className='flex-1 lg:bg-bottom bg-no-repeat mb-12 lg:mb-0'>
-            <h2 className='h2 text-accent text-[40px] font-secondary font-bold mb-6'>What I Do</h2>
+            <h2 className='h2 text-blue-400 text-[40px] font-secondary font-bold mb-6'>What I Do</h2>
             <h3 className='h3 max-w-[455px] mb-16 font-primary'>
               I am a coder and beginner Android Developer who is currently improving himself in this field.
             </h3>
