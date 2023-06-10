@@ -3,11 +3,11 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/your-repo-name/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo-name.svg)](https://github.com/your-username/your-repo-name/stargazers)
 
-Welcome to my portfolio website! This website showcases my skills, projects, and experiences in the field of web development. Feel free to explore and get to know more about me.
+Welcome to my portfolio website! This website showcases my skills, projects, and experiences in the field of android development. Feel free to explore and get to know more about me.
 
 ## Live Demo
 
-Check out the live demo of my portfolio website: [My Portfolio](https://manojkp08.github.io/MyPortfolioSite/)
+Check out the live demo of my portfolio website: Link is provided in "About" section.
 
 ## Technologies Used
 
