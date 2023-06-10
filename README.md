@@ -7,7 +7,7 @@ Welcome to my portfolio website! This website showcases my skills, projects, and
 
 ## Live Demo
 
-Check out the live demo of my portfolio website: [My Portfolio](https://manojkp08.github.io/MyPortfolioSite/)
+Check out the live demo of my portfolio website: Link is provided in "About" section.
 
 ## Technologies Used
 
