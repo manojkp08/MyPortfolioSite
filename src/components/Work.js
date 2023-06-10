@@ -68,11 +68,11 @@ const Work = () => {
                 alt=''
               />
               {/* pretitle */}
-              <div className='absolute -bottom-full group-hover:bottom-5 left-5 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-6 lg:group-hover:bottom-3 transition-all duration-500 z-50'>
+              <div className='absolute -bottom-full group-hover:bottom-7 left-3 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-12 lg:group-hover:bottom-6 transition-all duration-500 z-50'>
                 <span className='text-gradient'>A wallpaper app made using Koltin and Firebase.</span>
               </div>
               {/* title */}
-              <div className='absolute -top-full left-5 group-hover:top-2 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-6 lg:group-hover:top-1 transition-all mt-5 duration-700 z-50'>
+              <div className='absolute -top-full left-3 group-hover:top-3 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-7 lg:group-hover:top-3 transition-all mt-5 duration-700 z-50'>
                 <span className='text-3xl text-white'>Amoled Wallpaper</span>
               </div>
             </motion.div>
@@ -91,11 +91,11 @@ const Work = () => {
                 alt=''
               />
               {/* pretitle */}
-              <div className='absolute -bottom-full group-hover:bottom-4 left-5 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-6 lg:group-hover:bottom-3 transition-all duration-500 z-50'>
+              <div className='absolute -bottom-full group-hover:bottom-3 left-4 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-6 lg:group-hover:bottom-2 transition-all duration-500 z-50'>
                 <span className='text-gradient'>A notes app made using Koltin, Room Database and MVVM architecture.</span>
               </div>
               {/* title */}
-              <div className='absolute -top-full left-5 group-hover:top-1 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-6 lg:group-hover:top-1 transition-all mt-5 duration-700 z-50'>
+              <div className='absolute -top-full left-4 group-hover:top-1 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-6 lg:group-hover:top-1 transition-all mt-5 duration-700 z-50'>
                 <span className='text-3xl text-white'>Notes App</span>
               </div>
             </motion.div>
@@ -119,11 +119,11 @@ const Work = () => {
                 alt=''
               />
               {/* pretitle */}
-              <div className='absolute -bottom-full group-hover:bottom-5 left-5 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-6 lg:group-hover:bottom-3 transition-all duration-500 z-50'>
+              <div className='absolute -bottom-full group-hover:bottom-7 left-3 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-12 lg:group-hover:bottom-6 transition-all duration-500 z-50'>
                 <span className='text-gradient'>A chat app using Koltin and Firebase.</span>
               </div>
               {/* title */}
-              <div className='absolute -top-full left-5 group-hover:top-2 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-6 lg:group-hover:top-1 transition-all mt-5 duration-700 z-50'>
+              <div className='absolute -top-full left-3 group-hover:top-3 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-7 lg:group-hover:top-3 transition-all mt-5 duration-700 z-50'>
                 <span className='text-3xl text-white'>Koltin Chat App</span>
               </div>
             </motion.div>
@@ -142,11 +142,11 @@ const Work = () => {
                 alt=''
               />
               {/* pretitle */}
-              <div className='absolute -bottom-full group-hover:bottom-5 left-5 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-6 lg:group-hover:bottom-3 transition-all duration-500 z-50'>
+              <div className='absolute -bottom-full group-hover:bottom-7 left-4 sm:group-hover:bottom-28 sm:left-10 md:left-20 md:group-hover:bottom-36 xl:left-10 lg:left-5 xl:group-hover:bottom-12 lg:group-hover:bottom-6 transition-all duration-500 z-50'>
                 <span className='text-gradient'>A meme app made using Koltin and MemeAPI.</span>
               </div>
               {/* title */}
-              <div className='absolute -top-full left-5 group-hover:top-2 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-6 lg:group-hover:top-1 transition-all mt-5 duration-700 z-50'>
+              <div className='absolute -top-full left-4 group-hover:top-3 sm:group-hover:top-20 sm:left-10 md:left-20 md:group-hover:top-28 xl:left-10 lg:left-5 xl:group-hover:top-7 lg:group-hover:top-3 transition-all mt-5 duration-700 z-50'>
                 <span className='text-3xl text-white'>Meme App</span>
               </div>
             </motion.div>

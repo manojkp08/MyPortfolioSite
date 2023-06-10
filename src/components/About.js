@@ -17,7 +17,7 @@ const About = () => {
     threshold: 0.5
   });
   return (
-    <section className='section mt-20 mb-0 px-2 sm:mt-40 sm:mb-2 md:mt-40 md:mb-2 lg:mt-96 lg:mb-2 xl:mt-72 xl:mb-2' id='about'>
+    <section className='section px-2 sm:mt-40 sm:mb-2 md:mt-40 md:mb-2 lg:mt-96 lg:mb-2 xl:mt-72 xl:mb-2' id='about'>
       <div className='container mx-auto'> 
         <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0'>
           {/* image */}

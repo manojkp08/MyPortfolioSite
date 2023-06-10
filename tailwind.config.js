@@ -28,6 +28,7 @@ module.exports = {
         site: "url('./assets/site-bg.png')",
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
+        copyright: "url('./assets/copyright-bg.png')"
       },
     },
   },

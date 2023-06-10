@@ -47,11 +47,11 @@ const Contact = () => {
             viewport={{ once: false, amount: 0.01 }} 
             className='flex-1 flex justify-start items-center'>
             <div>
-              <h4 className='text-xl uppercase text-[30px] text-accent font-secondary font-bold mb-2
+              <h4 className='uppercase text-[30px] text-blue-300 text-[40px] font-secondary font-bold mb-8
               tracking-wide'>
                 Get in touch
               </h4>
-              <h2 className='text-[45px] lg:text-[90px] leading-none mb-12 font-secondary font-semibold'>
+              <h2 className='text-[45px] lg:text-[90px] leading-none mb-8 font-secondary font-semibold'>
                 Let's work <br /> together!
               </h2>
             </div>
