@@ -36,7 +36,7 @@ const About = () => {
             whileInView={"show"}
             viewport={{once: false, amount: 0.01}}
             className='flex-1'>
-            <h2 className='h2 text-blue-400 text-[40px] font-secondary font-bold'>About me</h2>
+            <h2 className='h2 text-yellow-400 text-[40px] font-secondary font-bold'>About me</h2>
             <div>
               <motion.div
                 variants={fadeIn('left', 0.4)}
@@ -145,7 +145,7 @@ const About = () => {
                 smooth={true}
                 duration={500}
                 offset={-50}>
-                <button className='btn btn-sm text-[17px] bg-blue-500 hover:bg-blue-600 text-white font-tertiary font-bold py-2 px-4 rounded-3xl shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:ring-2 hover:ring-blue'>Contact Me</button>
+                <button className='btn btn-sm text-[17px] text-black font-tertiary font-bold py-2 px-4 rounded-3xl shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:ring-2 hover:ring-blue'>Contact Me</button>
               </Link>
               <Link
                 to='resume'

@@ -47,15 +47,15 @@ const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{once: false, amount: 0.01}} 
-            className='flex-1 lg:bg-bottom bg-no-repeat mb-12 lg:mb-0'>
-            <h2 className='h2 text-blue-400 text-[40px] font-secondary font-bold mb-6'>What I Do</h2>
-            <h3 className='h3 max-w-[455px] mb-16 font-primary'>
+            className='flex-1 lg:bg-bottom px-5 bg-no-repeat mb-12 lg:mb-0'>
+            <h2 className='h2 text-yellow-400 text-[40px] font-secondary font-bold mb-6'>What I Do</h2>
+            <h3 className='h3 max-w-[455px] mb-16 font-secondary font-extralight'>
               I am a coder and beginner Android Developer who is currently improving himself in this field.
             </h3>
             <button 
               onClick={handelRedirect}
               className='btn btn-sm bg-blue-500 hover:bg-blue-600
-              text-white text-[17px] font-tertiary font-bold py-2 px-4 rounded-3xl shadow-md 
+              text-black text-[17px] font-tertiary font-bold py-2 px-4 rounded-3xl shadow-md 
               transition-all duration-300 transform hover:scale-105 
               hover:shadow-xl hover:ring-2 hover:ring-blue'>
                 Github Profile

@@ -31,7 +31,7 @@ const Work = () => {
             {/* text */}
             <div
               className='grid gap-5 bg-no-repeat lg:flex-row flex-col px-5 py-5'>
-              <h2 className='h2 leading-tight text-[40px] text-blue-400 font-bold font-secondary'>
+              <h2 className='h2 leading-tight text-[40px] text-yellow-400 font-bold font-secondary'>
                 My Latest <br />
                 Work.
               </h2>
@@ -41,8 +41,7 @@ const Work = () => {
               </p>
               <button 
                 onClick={handelRedirect}
-                className='h-11 w-64 btn btn-sm bg-blue-500 
-              hover:bg-blue-600 text-[17px] text-white 
+                className='h-11 w-64 btn btn-sm text-[17px] text-black 
                 font-bold font-tertiary py-2 px-2 rounded-3xl shadow-md 
                 transition-all duration-300 transform 
                 hover:scale-105 hover:shadow-xl hover:ring-2 

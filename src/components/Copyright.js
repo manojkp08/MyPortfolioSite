@@ -4,7 +4,7 @@ const Copyright = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <section className='section bg-site px-2 h-96 sm:mt-2 sm:h-80 md:mt-2 md:h-80 lg:mt-2 lg:h-80 xl:mt-2 xl:h-60' id='copyright'>
+        <section className='section shadow-2xl bg-gray-800 px-2 h-96 sm:mt-2 sm:h-80 md:mt-2 md:h-80 lg:mt-2 lg:h-80 xl:mt-2 xl:h-60' id='copyright'>
             <div className='container mx-auto h-96 sm:h-80 md:h-80 lg:h-80 xl:h-60'>
                 <div className="py-10 text-center">
                     <p className="text-yellow-400 text-[20px]">

@@ -11,9 +11,9 @@ import {Link} from 'react-scroll';
 
 const Nav = () => {
     return (
-        <nav className="fixed bottom-1.5 lg:bottom-27 w-full overflow-hidden z-50 flex justify-center items-center">
+        <nav className="fixed bottom-1.5 lg:bottom-3 xl:bottom-3 md:bottom-3 sm:bottom-3 w-full overflow-hidden z-50 flex justify-center items-center">
             <div className="container mx-auto">
-                <div className="w-full bg-black/20 h-[85px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
+                <div className="w-full bg-black/20 h-[85px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-yellow-500">
                     <Link 
                       to='home'
                       activeClass='active'

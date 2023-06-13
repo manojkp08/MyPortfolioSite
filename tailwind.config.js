@@ -13,7 +13,6 @@ module.exports = {
       },
     },
     screens: {
-      xsm: '400px',
       sm: '640px',
       md: '768px',
       lg: '960px',
@@ -21,8 +20,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#0a0a0a',
-        accent: '#0030a1',
+        primary: '#f9ffb3',
+        accent: '#ead200',
       },
       backgroundImage: {
         site: "url('./assets/site-bg.png')",

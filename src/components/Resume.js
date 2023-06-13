@@ -49,7 +49,7 @@ const Resume = () => {
           viewport={{ once: false, amount: 0.3 }}
           className='flex-1 bg-no-repeat'
         >
-          <h2 className='h2 text-blue-400 text-[40px] font-bold font-secondary mb-6 px-12 py-5'>Resume</h2>
+          <h2 className='h2 text-yellow-400 text-[40px] font-bold font-secondary mb-6 px-12 py-5'>Resume</h2>
         </motion.div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-10 py-5">
           <div className="lg:col-start-1 lg:col-end-2">
@@ -61,7 +61,7 @@ const Resume = () => {
               viewport={{ once: false, amount: 0.06 }}
               className='flex-1 bg-no-repeat'
             >
-              <h2 className="text-4xl text-blue-300 font-secondary mb-3">Summary</h2>
+              <h2 className="text-4xl text-yellow-500 font-secondary mb-3">Summary</h2>
               {/* Add your summary content here */}
               <p className="font-semibold mb-10 font-primary">
                 Tech-loving bachelor with a passion for Android development.
@@ -80,11 +80,11 @@ const Resume = () => {
               viewport={{ once: false, amount: 0.06 }}
               className='flex-1 bg-no-repeat'
             >
-              <h2 className="text-4xl text-blue-300 font-secondary mb-3">Education</h2>
+              <h2 className="text-4xl text-yellow-500 font-secondary mb-3">Education</h2>
               <h3 className="text-2xl font-secondary">Kendriya Vidyalaya Sangathan</h3>
               <h4 className="mb-2 font-semibold font-secondary">PCM + IP</h4>
-              <div className="px-2 w-20 h-9 bg-gradient-to-r mb-3 from-blue-500 to-purple-800 rounded-2xl flex items-center justify-center">
-                <h6 className="text-sm text-white font-semibold font-secondary">2010-2022</h6>
+              <div className="px-2 w-20 h-9 bg-gradient-to-r mb-3 from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center">
+                <h6 className="text-sm text-black font-semibold font-secondary">2010-2022</h6>
               </div>
               <h3 className="text-2xl font-secondary">
                 Vellore Institute Of Technology, Bhopal
@@ -93,8 +93,8 @@ const Resume = () => {
                 B.Tech Computer Science and Engineering
               </h4>
               <h5 className="font-semibold mb-2 font-secondary">Sehore, Madhya Pradesh</h5>
-              <div className="w-40 h-9 bg-gradient-to-r mb-10 from-blue-500 to-purple-800 rounded-2xl flex items-center justify-center">
-                <h6 className=" px-2 text-sm text-white font-secondary">
+              <div className="w-40 h-9 bg-gradient-to-r mb-10 from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center">
+                <h6 className=" px-2 text-sm text-black font-secondary">
                   Expected: Sept 2026
                 </h6>
               </div>
@@ -107,7 +107,7 @@ const Resume = () => {
               viewport={{ once: false, amount: 0.06 }}
               className='flex-1 bg-no-repeat'
             >
-              <h2 className="text-4xl text-blue-300 font-bold font-secondary mb-3">Skills</h2>
+              <h2 className="text-4xl text-yellow-500 font-bold font-secondary mb-3">Skills</h2>
               <h3 className="text-3xl font-bold font-secondary mb-3">Languages</h3>
               <h4 className="font-semibold font-primary mb-3">
                 • Kotlin (Fluent)
@@ -146,7 +146,7 @@ const Resume = () => {
               viewport={{ once: false, amount: 0.06 }}
               className='flex-1 bg-no-repeat'
             >
-              <h2 className="text-4xl text-blue-300 font-bold font-secondary mb-4">Experience</h2>
+              <h2 className="text-4xl text-yellow-500 font-bold font-secondary mb-4">Experience</h2>
               {/* Add your experience content here */}
               <h4 className="text-2xl font-bold text-white font-secondary mb-3">Club Member, Microsoft Technical Club</h4>
               <h5 className="font-semibold mb-3 text-white font-primary">
@@ -155,8 +155,8 @@ const Resume = () => {
                 and others. In order to contribute our abilities to the technical club, we are
                 also given the opportunity to join the core team.
               </h5>
-              <div className="w-40 h-9 bg-gradient-to-r mb-10 from-blue-500 to-purple-800 rounded-2xl flex items-center justify-center">
-                <h6 className=" px-2 text-sm text-white font-semibold font-secondary">
+              <div className="w-40 h-9 bg-gradient-to-r mb-10 from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center">
+                <h6 className=" px-2 text-sm text-black font-semibold font-secondary">
                   Oct 2022 - Present
                 </h6>
               </div>
@@ -169,7 +169,7 @@ const Resume = () => {
               viewport={{ once: false, amount: 0.02 }}
               className='flex-1 bg-no-repeat'
             >
-              <h2 className="text-4xl text-blue-300 font-bold mb-4 font-secondary">Projects</h2>
+              <h2 className="text-4xl text-yellow-500 font-bold mb-4 font-secondary">Projects</h2>
               {/* Add your projects content here */}
               <h3 className="text-3xl mb-2 text-white font-semibold font-secondary">Smack Chat App</h3>
               <h4 className="mb-3 text-white font-semibold font-primary">
@@ -201,7 +201,7 @@ const Resume = () => {
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.06 }}
                     className='btn btn-sm
-                  hover:bg-blue-600 text-white 
+                   text-black 
                     font-bold font-tertiary py-2 px-4 rounded-3xl text-[17px]
                     shadow-md transition-all duration-300 
                     hover:scale-125 hover:shadow-xl hover:ring-2 hover:ring-blue m-2'
@@ -214,7 +214,7 @@ const Resume = () => {
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.06 }}
                     className='btn btn-sm
-                  hover:bg-blue-600 text-white 
+                   text-black
                     font-bold py-2 px-4 rounded-3xl text-[17px]
                     shadow-md font-tertiary transition-all duration-300 
                     hover:scale-125 hover:shadow-xl hover:ring-2 hover:ring-blue m-2' 
@@ -229,8 +229,7 @@ const Resume = () => {
                   whileInView={'show'}
                   onClick={handleDownload}
                   viewport={{ once: false, amount: 0.06 }}
-                  className='btn btn-sm
-                hover:bg-blue-600 text-white font-tertiary
+                  className='btn btn-sm text-black font-tertiary
                   font-bold py-2 px-4 rounded-3xl text-[17px]
                   shadow-md transition-all duration-300 
                   hover:scale-125 hover:shadow-xl hover:ring-2 hover:ring-blue'>Download Resume</motion.button>

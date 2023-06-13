@@ -47,7 +47,7 @@ const Contact = () => {
             viewport={{ once: false, amount: 0.01 }} 
             className='flex-1 flex justify-start items-center'>
             <div>
-              <h4 className='uppercase text-[30px] text-blue-300 text-[40px] font-secondary font-bold mb-8
+              <h4 className='uppercase text-[30px] text-yellow-400 text-[40px] font-secondary font-bold mb-8
               tracking-wide'>
                 Get in touch
               </h4>
@@ -92,7 +92,7 @@ const Contact = () => {
               placeholder='Your Message'
             ></input>
             <button
-              className='btn btn-sm text-[17px] bg-blue-500 hover:bg-blue-600 text-white font-bold font-tertiary py-2 px-4 rounded-3xl shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:ring-2 hover:ring-blue'>Send Message
+              className='btn btn-sm text-[17px] text-black font-bold font-tertiary py-2 px-4 rounded-3xl shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:ring-2 hover:ring-blue'>Send Message
             </button>
           </motion.form>
         </div>

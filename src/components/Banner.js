@@ -63,7 +63,7 @@ const Banner = () => {
                   3000
                 ]}
                 speed={50}
-                className='text-gradient font-secondary'
+                className='text-accent font-secondary'
                 wrapper='span'
                 repeat={Infinity}
               />
@@ -79,7 +79,7 @@ const Banner = () => {
                 smooth={true}
                 duration={500}
                 offset={-50}>
-                <button className='btn btn-sm text-[17px] bg-blue-500 hover:bg-blue-600 text-white font-bold font-tertiary py-2 px-4 rounded-3xl shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:ring-2 hover:ring-blue'>Contact Me</button>
+                <button className='btn btn-sm text-[17px] text-black font-bold font-tertiary py-2 px-4 rounded-3xl shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:ring-2 hover:ring-blue'>Contact Me</button>
               </Link>
               <Link
                 to='resume'
@@ -87,7 +87,7 @@ const Banner = () => {
                 duration={500}
                 offset={-50}
               >
-                <button className='bg-transparent text-gradient font-bold font-tertiary py-2 px-4 rounded-3xl shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl'>
+                <button className='text-gradient bg-transparent font-bold font-tertiary py-2 px-4 rounded-3xl shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl'>
                   My Resume
                 </button>
               </Link>
