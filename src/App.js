@@ -22,7 +22,13 @@ const App = () => {
       <Work />
       <Resume />
       <Contact />
-      <footer>
+      {/* <footer>
+        <Copyright />
+      </footer> */}
+      <footer className="relative">
+        <div className="h-8 w-full absolute bottom-0 left-0">
+          <div className="h-full w-full filter blur-lg bg-yellow-500 opacity-50"></div>
+        </div>
         <Copyright />
       </footer>
       {/* <div className='h-[4000px]'></div> */}
