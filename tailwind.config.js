@@ -2,7 +2,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Oldenburg',
+      primary: 'Poppins',
       secondary: 'Fjalla One',
       tertiary: 'Fredericka the Great',
       alternative: 'Orbitron'
@@ -22,6 +22,7 @@ module.exports = {
       colors: {
         primary: '#f9ffb3',
         accent: '#ead200',
+        // accent: '#f9ffb3'
       },
       backgroundImage: {
         site: "url('./assets/site-bg.png')",

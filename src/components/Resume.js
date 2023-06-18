@@ -114,7 +114,7 @@ const Resume = () => {
                 • Java (Fluent)
                 • HTML
                 • CSS
-                • Python
+                • Python 
                 • XML/JSON
                 • React
                 • Javascript

@@ -149,10 +149,6 @@ const Work = () => {
                 <span className='text-3xl text-white'>Meme App</span>
               </div>
             </motion.div>
-
-
-
-
           </div>
         </div>
       </div>

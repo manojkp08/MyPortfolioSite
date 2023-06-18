@@ -13,14 +13,14 @@ const Nav = () => {
     return (
         <nav className="fixed bottom-1.5 lg:bottom-3 xl:bottom-3 md:bottom-3 sm:bottom-3 w-full overflow-hidden z-50 flex justify-center items-center">
             <div className="container mx-auto">
-                <div className="w-full bg-black/20 h-[85px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-yellow-500">
+                <div className="w-full bg-teal-500 bg-opacity-10 h-[85px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-yellow-500">
                     <Link 
                       to='home'
                       activeClass='active'
                       smooth={true} 
                       spy={true}
                       offset={-200}
-                      className="cursor-pointer w-[50px] h-[50px] flex items-center 
+                      className="cursor-pointer w-[53px] h-[53px] flex items-center 
                       justify-center">
                       <LuHome/>
                     </Link>
@@ -29,7 +29,7 @@ const Nav = () => {
                       activeClass='active'
                       smooth={true}
                       spy={true}
-                      className="cursor-pointer w-[50px] h-[50px] flex items-center 
+                      className="cursor-pointer w-[53px] h-[53px] flex items-center 
                       justify-center">
                       <BiUser/>
                     </Link>
@@ -38,7 +38,7 @@ const Nav = () => {
                       activeClass='active'
                       smooth={true}
                       spy={true}
-                      className="cursor-pointer w-[50px] h-[50px] flex items-center 
+                      className="cursor-pointer w-[53px] h-[53px] flex items-center 
                       justify-center">
                       <BsLaptop/>
                     </Link>
@@ -47,7 +47,7 @@ const Nav = () => {
                       activeClass='active'
                       smooth={true}
                       spy={true}
-                      className="cursor-pointer w-[50px] h-[50px] flex items-center 
+                      className="cursor-pointer w-[53px] h-[53px] flex items-center 
                       justify-center">
                       <MdWorkOutline/>
                     </Link>
@@ -56,7 +56,7 @@ const Nav = () => {
                       activeClass='active'
                       smooth={true}
                       spy={true}
-                      className="cursor-pointer w-[50px] h-[50px] flex items-center 
+                      className="cursor-pointer w-[53px] h-[53px] flex items-center 
                       justify-center">
                       <HiOutlineDocumentText/>
                     </Link>
@@ -65,7 +65,7 @@ const Nav = () => {
                       activeClass='active'
                       smooth={true}
                       spy={true}
-                      className="cursor-pointer w-[50px] h-[50px] flex items-center 
+                      className="cursor-pointer w-[53px] h-[53px] flex items-center 
                       justify-center">
                       <AiOutlineMessage/>
                     </Link>
