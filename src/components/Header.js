@@ -3,7 +3,7 @@ import React from 'react';
 import {Link} from 'react-scroll';
 
   const Header = () => {
-    return <header className='py-3 fixed backdrop-blur-2xl top-0 left-0 bg-white/5 w-full z-50'>
+    return <header className='py-3 fixed backdrop-blur-2xl top-0 left-0 bg-teal-500 bg-opacity-20 w-full z-50'>
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
         {/* logo */}

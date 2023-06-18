@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .btn {
   background: linear-gradient(
     134.23deg,
@@ -35,7 +36,7 @@
 }
 
 .active {
-  color: #fff;
+  color: #000000;
   padding: 1rem;
   border-radius: 100%;
 }
